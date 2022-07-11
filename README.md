@@ -9,4 +9,8 @@ min_samples_split = [2,5,10,15,100]
 min_samples_leaf =[1,2,5,10]
 Accuracy score is 81.91% 
 ### Model is deployed using Flask (app1.py)
-### Simple HTML template is used (
+### Simple HTML template is used (index.html)
+Which takes 'vehicle_age', 'km_driven', 'present_price', 'mileage',
+       'seller_type_Dealer', 'seller_type_Individual', 'fuel_type_CNG',
+       'fuel_type_Diesel', 'fuel_type_LPG', 'fuel_type_Petrol',
+       'transmission_type_Automatic', 'transmission_type_Manual' as a entry
